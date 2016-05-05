@@ -52,7 +52,7 @@ main_page_head = '''
             width: 100%;
             left: 0;
             top: 0;
-            background-color: white;
+            background-color: black;
         }
     </style>
     <script type="text/javascript" charset="utf-8">

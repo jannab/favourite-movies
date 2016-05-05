@@ -11,47 +11,41 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story",
-	"A story of a boy and his toys that come to life",
-	"http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-	"https://www.youtube.com/watch?v=vwyZH85NQC4")
-
-avatar = media.Movie("Avatar",
-	"A marine on an alien planet",
-	"http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
-	"https://www.youtube.com/watch?v=5PSNL1qE6VY")
-
-lord_of_the_rings = media.Movie("Lord of the Rings",
+lord_of_the_rings_1 = media.Movie("Lord of the Rings - The Fellowship Of The Ring",
 	"A hobbit learns that his magic ring is the key to saving Middle Earth from the Dark Lord",
 	#source: "http://www.advancedfictionwriting.com/blog/2009/01/01/star-wars-one-sentence-summary/")
-	"http://vignette3.wikia.nocookie.net/lotr/images/7/74/LOTRFOTRmovie.jpg/revision/latest?cb=20150203040819",
-	"https://www.youtube.com/watch?v=V75dMMIW2B4")
+	"https://upload.wikimedia.org/wikipedia/en/0/0c/The_Fellowship_Of_The_Ring.jpg",
+	"https://www.youtube.com/watch?v=Pki6jbSbXIY")
 
-school_of_rock = media.Movie("School of Rock",
-	"Using rock music to learn",
-	"http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-	"https://www.youtube.com/watch?v=3PsUJFEBC74")
+lord_of_the_rings_2 = media.Movie("Lord of the Rings - The Two Towers",
+	"A hobbit learns that his magic ring is the key to saving Middle Earth from the Dark Lord",
+	#source: "http://www.advancedfictionwriting.com/blog/2009/01/01/star-wars-one-sentence-summary/")
+	"https://upload.wikimedia.org/wikipedia/en/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg",
+	"https://www.youtube.com/watch?v=2dlRvAjU_RI")
 
-ratatouille = media.Movie("Ratatouille",
-	"A rat is a chef in Paris",
-	"http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-	"https://www.youtube.com/watch?v=c3sBBRxDAqk")
+lord_of_the_rings_3 = media.Movie("Lord of the Rings - The Return of the King",
+	"A hobbit learns that his magic ring is the key to saving Middle Earth from the Dark Lord",
+	#source: "http://www.advancedfictionwriting.com/blog/2009/01/01/star-wars-one-sentence-summary/")
+	"https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg",
+	"https://www.youtube.com/watch?v=r5X-hFf6Bwo")
 
-midnight_in_paris = media.Movie("Midnight in Paris",
-	"Going back in time to meet authors",
-	"https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-	"https://www.youtube.com/watch?v=BYRWfS2s2v4")
+hobbit_1 = media.Movie("The Hobbit - An Unexpected Journey",
+	"The Hobbit is an adventure story involving Bilbo Baggins, a Hobbit, Gandalf, a wizard and several other creatures including dwarves, elves, and a dragon.",
+	#source: "http://www.enotes.com/homework-help/short-summary-book-77385")
+	"https://upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg",
+	"https://www.youtube.com/watch?v=eI3f4b-b8ig")
 
-hunger_games = media.Movie("Hunger Games",
-	"A really real reality show",
-	"https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg",
-	"https://www.youtube.com/watch?v=SMGRhAEn6K0")
+hobbit_2 = media.Movie("The Hobbit - The Desolation of Smaug",
+	"The Hobbit is an adventure story involving Bilbo Baggins, a Hobbit, Gandalf, a wizard and several other creatures including dwarves, elves, and a dragon.",
+	#source: "http://www.enotes.com/homework-help/short-summary-book-77385")
+	"https://upload.wikimedia.org/wikipedia/en/4/4f/The_Hobbit_-_The_Desolation_of_Smaug_theatrical_poster.jpg",
+	"https://www.youtube.com/watch?v=fnaojlfdUbs")
 
-#print(lord_of_the_rings.storyline)
-#lord_of_the_rings.show_trailer()
+hobbit_3 =  media.Movie("The Hobbit - The Battle of the Five Armies",
+	"The Hobbit is an adventure story involving Bilbo Baggins, a Hobbit, Gandalf, a wizard and several other creatures including dwarves, elves, and a dragon.",
+	#source: "http://www.enotes.com/homework-help/short-summary-book-77385")
+	"https://upload.wikimedia.org/wikipedia/en/0/0e/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg",
+	"https://www.youtube.com/watch?v=ZSzeFFsKEt4")
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [lord_of_the_rings_1, lord_of_the_rings_2, lord_of_the_rings_3, hobbit_1, hobbit_2, hobbit_3]
 fresh_tomatoes.open_movies_page(movies)
-
-#print(media.Movie.VALID_RATINGS)
-#print(media.Movie.__doc__)
